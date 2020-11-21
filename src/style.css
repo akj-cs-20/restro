@@ -1,0 +1,10 @@
+body {
+  padding-top: 70px;
+}
+/* Navbar Brand */
+nav .navbar-brand {
+  font-family: "Architects Daughter", cursive;
+  font-family: "Dancing Script", cursive;
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+}
