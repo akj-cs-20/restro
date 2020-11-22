@@ -12,7 +12,7 @@ class App extends Component {
         <div className="container-fluid">
           <NavBar />
           <Header />
-          <Subtitle name="ITEMS WE OFFER" />
+          <Subtitle name="ITEMS WE OFFER" id="items" />
           <div className="container">
             <div className="row">
               {/* Item 1 */}
@@ -40,7 +40,7 @@ class App extends Component {
                 />
               </div>
               {/* Item 3 */}
-              <div className="col-md p-2">
+              <div className="col-md p-3">
                 <ItemsCard
                   img={`${process.env.PUBLIC_URL} /images/item3.jpg`}
                   alt="card-item-3"
@@ -53,6 +53,7 @@ class App extends Component {
               </div>
             </div>
           </div>
+          <Subtitle name="OUR GALLERY" id="gallery" />
         </div>
       </div>
     );

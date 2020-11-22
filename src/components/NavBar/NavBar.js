@@ -5,7 +5,7 @@ import NavSocial from "./NavSocial";
 const NavBar = () => {
   const companyName = "Restro";
   return (
-    <div className="container">
+    <div className="container" id="header">
       <div className="row">
         <div className="col">
           <header>
@@ -33,8 +33,8 @@ const NavBar = () => {
                 <ul className="navbar-nav mr-auto ">
                   <NavItem name="Home" navLink="#header" />
                   <NavItem name="Items" navLink="#items" />
-                  <NavItem name="Gallerly" navLink="#" />
-                  <NavItem name="Contact Us" navLink="#" />
+                  <NavItem name="Gallerly" navLink="#gallery" />
+                  <NavItem name="Contact Us" navLink="#contact-us" />
                 </ul>
                 <div className="d-none d-md-block">
                   <ul className="navbar-nav nav-flex-icons ml-auto ">

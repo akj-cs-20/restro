@@ -3,7 +3,7 @@ import Button from "../Button/Button";
 
 const Header = () => {
   return (
-    <div className="container my-4 py-4 " id="header">
+    <div className="container my-4 py-4">
       <div className="row ">
         <div className="col-md d-none d-sm-block">
           <h2 className="font-weight-bold">Restro Restraunt</h2>

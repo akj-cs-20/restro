@@ -4,7 +4,7 @@ const ItemsCard = (props) => {
   return (
     <div id="items">
       {/* card */}
-      <div className="card z-depth-1">
+      <div className="card card-hover">
         {/* image */}
         <img src={props.img} className="card-img-top" alt={props.alt} />
         {/* card content */}
