@@ -21,7 +21,7 @@ const Header = () => {
           <img
             src={process.env.PUBLIC_URL + "/images/header.jpg"}
             alt="headerImage"
-            className="img-fluid z-depth-3"
+            className="img-fluid z-depth-3 "
           />
         </div>
         <div className="col-md d-block d-md-none">

@@ -32,8 +32,7 @@ const NavBar = () => {
               >
                 <ul className="navbar-nav mr-auto ">
                   <NavItem name="Home" navLink="#header" />
-                  <NavItem name="Features" navLink="#" />
-                  <NavItem name="Items" navLink="#" />
+                  <NavItem name="Items" navLink="#items" />
                   <NavItem name="Gallerly" navLink="#" />
                   <NavItem name="Contact Us" navLink="#" />
                 </ul>
